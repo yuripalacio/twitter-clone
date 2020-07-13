@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="twitter-clone" title="#TwitterClone" src=".github/main.png" width="600px" />
+    <img alt="twitter-clone" title="#TwitterClone" src=".github/main.png" width="1000px" />
 </h1>
 
 ## Available Scripts
