@@ -7,6 +7,10 @@ export {
   LocationOn,
   Search,
 } from 'styled-icons/material-outlined';
+export { HomeCircle } from 'styled-icons/boxicons-solid';
+export { Hash } from 'styled-icons/feather';
+export { FileList2 } from 'styled-icons/remix-line';
+export { MoreHorizontalOutline } from 'styled-icons/evaicons-outline';
 export { Person, Cake, Favorite } from 'styled-icons/material';
 export { Repost } from '@styled-icons/boxicons-regular';
 export { ArrowLeft } from 'styled-icons/heroicons-solid';

@@ -28,7 +28,7 @@ export default createGlobalStyle`
   }
 
   :root {
-    --primary: #000;
+    --primary: #15202b;
     --secondary: #15181C;
     --search: #202327;
     --white: #D9D9D9;

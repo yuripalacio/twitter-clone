@@ -8,10 +8,13 @@ import {
   Logo,
   MenuButton,
   HomeIcon,
+  HashIcon,
   BellIcon,
   EmailIcon,
   FavoriteIcon,
+  ListIcon,
   ProfileIcon,
+  MoreIcon,
   Botside,
   Avatar,
   ProfileData,
@@ -30,6 +33,11 @@ const MenuBar: React.FC = () => {
         </MenuButton>
 
         <MenuButton>
+          <HashIcon />
+          <span>Explorar</span>
+        </MenuButton>
+
+        <MenuButton>
           <BellIcon />
           <span>Modificações</span>
         </MenuButton>
@@ -41,12 +49,22 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <FavoriteIcon />
-          <span>Favoritados</span>
+          <span>Itens salvos</span>
+        </MenuButton>
+
+        <MenuButton>
+          <ListIcon />
+          <span>Listas</span>
         </MenuButton>
 
         <MenuButton className="active">
           <ProfileIcon />
           <span>Perfil</span>
+        </MenuButton>
+
+        <MenuButton>
+          <MoreIcon />
+          <span>Mais</span>
         </MenuButton>
 
         <Button>

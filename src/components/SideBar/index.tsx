@@ -27,24 +27,23 @@ const SideBar: React.FC = () => {
             title="Talvez você curta"
             elements={[
               <FollowSuggestion name="Yuri Palacio" nickname="@yuripalacio" />,
+              <FollowSuggestion name="Yuri Palacio" nickname="@yuripalacio" />,
+              <FollowSuggestion name="Yuri Palacio" nickname="@yuripalacio" />,
+              <FollowSuggestion name="Yuri Palacio" nickname="@yuripalacio" />,
             ]}
           />
 
           <List
-            title="Talvez você curta"
-            elements={[<News />, <News />, <News />]}
-          />
-          <List
-            title="Talvez você curta"
-            elements={[<News />, <News />, <News />]}
-          />
-          <List
-            title="Talvez você curta"
-            elements={[<News />, <News />, <News />]}
-          />
-          <List
-            title="Talvez você curta"
-            elements={[<News />, <News />, <News />]}
+            title="O que está acontecendo"
+            elements={[
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+              <News />,
+            ]}
           />
         </Body>
       </StickyBox>

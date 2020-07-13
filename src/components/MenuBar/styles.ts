@@ -1,13 +1,16 @@
 import styled, { css } from 'styled-components';
 
 import {
-  Home,
+  HomeCircle,
   Notifications,
   Email,
   FavoriteBorder,
+  FileList2,
   Person,
+  MoreHorizontalOutline,
   ExitToApp,
   Twitter,
+  Hash,
 } from '../../styles/Icons';
 
 export const Container = styled.div`
@@ -43,11 +46,11 @@ export const Topside = styled.div`
 `;
 
 export const Logo = styled(Twitter)`
-  width: 41px;
-  height: 41px;
+  width: 30px;
+  height: 30px;
 
   > path {
-    fill: var(--twitter);
+    fill: var(--white);
   }
 
   margin-bottom: 20px;
@@ -127,12 +130,16 @@ export const MenuButton = styled.button`
 const iconCSS = css`
   flex-shrink: 0;
 
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   color: var(--white);
 `;
 
-export const HomeIcon = styled(Home)`
+export const HomeIcon = styled(HomeCircle)`
+  ${iconCSS}
+`;
+
+export const HashIcon = styled(Hash)`
   ${iconCSS}
 `;
 
@@ -148,7 +155,15 @@ export const FavoriteIcon = styled(FavoriteBorder)`
   ${iconCSS}
 `;
 
+export const ListIcon = styled(FileList2)`
+  ${iconCSS}
+`;
+
 export const ProfileIcon = styled(Person)`
+  ${iconCSS}
+`;
+
+export const MoreIcon = styled(MoreHorizontalOutline)`
   ${iconCSS}
 `;
 

@@ -37,7 +37,7 @@ const Tweet: React.FC = () => {
             <time>10 de jul</time>
           </Header>
 
-          <Description>Foguete não tem ré</Description>
+          <Description>Coisas boas estão por vir...</Description>
 
           <ImageContent />
 
