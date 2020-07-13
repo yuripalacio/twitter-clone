@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="twitter-clone" title="#TwitterClone" src=".github/main.png" width="600px" />
+</h1>
 
 ## Available Scripts
 
